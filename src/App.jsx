@@ -43,11 +43,9 @@ function App() {
           <Route path="*" element={<Navigate to="/" />} />
           <Route path="/" element={<HomePage />} />
          <Route path="/Stake" element={<StakePage />} />
-          
         </Routes>
         </WagmiConfig>
-      <Web3Modal projectId={ projectId } ethereumClient={ ethereumClient } /> 
-
+       <Web3Modal projectId={ projectId } ethereumClient={ ethereumClient } /> 
       </BrowserRouter>
       
       
