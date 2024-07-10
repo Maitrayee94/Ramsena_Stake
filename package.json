@@ -10,23 +10,22 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@web3modal/ethereum": "^2.7.1",
+    "@web3modal/react": "^2.7.1",
     "gsap": "^3.12.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-headroom": "^3.2.1",
     "react-helmet-async": "^2.0.4",
     "react-router-dom": "^6.23.0",
-    "react-headroom": "^3.2.1",
-    "react-toastify": "^9.1.3"
+    "react-toastify": "^9.1.3",
+    "viem": "^2.17.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react-swc": "^3.5.0",
-    "@wagmi/core": "^1.4.7",
-    "@web3-react/core": "^6.1.9",
-    "@web3modal/ethereum": "^2.7.1",
-    "@web3modal/react": "^2.7.1",
-    "@web3modal/wagmi": "^3.2.0",
+    "@web3modal/wagmi": "^3.5.7",
     "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
